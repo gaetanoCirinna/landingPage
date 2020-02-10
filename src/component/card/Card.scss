@@ -1,0 +1,31 @@
+.card {
+  &__main-title {
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin: 24px auto;
+    color: $charcoal;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.5;
+  }
+  &__element {
+    margin: 24px auto;
+    &-text {
+      h2 {
+        color: $green;
+        font-size: 1.5rem;
+        font-weight: 700;
+      }
+      p {
+        font-size: 0.8rem;
+      }
+    }
+  }
+  &__icon {
+    margin-top: 8px;
+  }
+}
+.float-right {
+  float: right;
+}

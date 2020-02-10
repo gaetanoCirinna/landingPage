@@ -1,0 +1,13 @@
+.large-hero {
+  position: relative;
+  &__bg {
+    background-color: #ccc;
+    position: relative;
+    h1 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
