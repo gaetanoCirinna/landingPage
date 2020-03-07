@@ -12,11 +12,11 @@ class Card extends Component {
   render() {
     return (
       <Container>
-        <Row className="no-fill">
+        <Row className="">
           <h1 className="card__main-title px-3">
             LOREM COSE PER ROBE IN POSTI E ALTRE COSE PER RIEMPIRE SPAZIO
           </h1>
-          <Col lg="12" className="no-fill">
+          <Col lg="12" className="">
             <div className="card__element">
               <Row>
                 <Col xs="3">
@@ -38,7 +38,7 @@ class Card extends Component {
               </Row>
             </div>
           </Col>
-          <Col lg="12" className="no-fill">
+          <Col lg="12" className="">
             <div className="card__element">
               <Row>
                 <Col xs="3">
@@ -48,7 +48,7 @@ class Card extends Component {
                 </Col>
                 <Col xs="9">
                   <div className="card__element-text">
-                    <h2>TITOLO CARD</h2>
+                    <h2>TITOLO CARDjjnjnjnjW</h2>
                     <p>
                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                       Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
@@ -60,7 +60,7 @@ class Card extends Component {
               </Row>
             </div>
           </Col>
-          <Col lg="12" className="no-fill">
+          <Col lg="12" className="">
             <div className="card__element">
               <Row>
                 <Col xs="3">

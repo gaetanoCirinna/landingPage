@@ -9,7 +9,6 @@ import SectionForm from "./component/sectionForm/SectionForm";
 function App() {
   return (
     <div>
-      <Header></Header>
       <LargeHero></LargeHero>
       <Card></Card>
       <SectionForm></SectionForm>

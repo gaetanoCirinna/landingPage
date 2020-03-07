@@ -5,15 +5,11 @@
 }
 body,
 html {
-  height: 100%;
-  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 div {
   display: block;
-  height: 100%;
-}
-.no-fill {
-  height: auto;
 }
 h1,
 h2,

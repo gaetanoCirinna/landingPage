@@ -18,10 +18,10 @@ class Header extends Component {
   }
   render() {
     return (
-      <Container fluid="true" className="no-fill ">
+      <Container fluid="true" className=" ">
         <Row>
           <Col lg="12">
-            <div className="header__navbar no-fill">
+            <div className="header__navbar ">
               <Navbar bg="" expand="lg">
                 <Navbar.Brand href="#" className="header__logo">
                   LOGO
