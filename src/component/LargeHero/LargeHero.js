@@ -14,17 +14,18 @@ class LargeHero extends Component {
         <Row>
           <Col lg="12" className="p-0">
             <div className="large-hero__bg">
-              <div className="large-hero__main-title">
+              <div className="large-hero__main-title p-2">
                 <h1>
                   Main title titolo tiotlo cose importanti. Scrivo altre cose
                   per provare la larghezza della colonna.{" "}
                 </h1>
                 <p>Ciao Eleonora ciao ciao ciao ciao ciao sottotitolo.</p>
+
                 <Button variant="info" size="lg" block>
                   Button!
                 </Button>
               </div>
-              <i class="material-icons large-hero__icon">
+              <i className="material-icons large-hero__icon">
                 arrow_drop_down_circle
               </i>
               <div className="large-hero__filter"></div>

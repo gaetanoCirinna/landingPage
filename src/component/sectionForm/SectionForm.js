@@ -33,7 +33,7 @@ class SectionForm extends Component {
 
   render() {
     return (
-      <Container className="bg-green">
+      <Container className="bg-green" fluid={true}>
         <Row>
           <Col lg="12">
             <div className="sectionForm">
@@ -42,15 +42,15 @@ class SectionForm extends Component {
                 closeModal={this.showModal}
               ></Success>
               <Form className="sectionForm__content">
-                <Form.Group controlId="formBasicEmail">
+                <Form.Group controlId="formBasicPiva">
                   <Form.Label>Partita IVA</Form.Label>
                   <Form.Control type="piva" placeholder="Partita IVA" />
                 </Form.Group>
-                <Form.Group controlId="formBasicEmail">
+                <Form.Group controlId="formBasicAgency">
                   <Form.Label>Agenzia</Form.Label>
                   <Form.Control type="agency" placeholder="Agenzia" />
                 </Form.Group>
-                <Form.Group controlId="formBasicEmail">
+                <Form.Group controlId="formBasicAddress">
                   <Form.Label>Indirizzo</Form.Label>
                   <Form.Control type="address" placeholder="Indirizzo" />
                 </Form.Group>

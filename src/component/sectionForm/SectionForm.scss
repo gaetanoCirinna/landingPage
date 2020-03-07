@@ -12,6 +12,9 @@
     width: 100%;
     background-color: $green-dark !important;
     border: none !important;
+    @media screen and (min-width: 600px) {
+      width: 20%;
+    }
   }
 }
 .d-inline {

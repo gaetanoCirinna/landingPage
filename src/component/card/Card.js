@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 // Bootstrap
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Row, Image } from "react-bootstrap";
 import MaterialIcon, { colorPalette } from "material-icons-react";
 
 class Card extends Component {
@@ -19,12 +19,12 @@ class Card extends Component {
           <Col lg="12" className="">
             <div className="card__element">
               <Row>
-                <Col xs="3">
+                <Col xs="3" md="1">
                   <div className="float-right card__icon">
                     <MaterialIcon icon="local_drink" size="large" />
                   </div>
                 </Col>
-                <Col xs="9">
+                <Col xs="9" md="11">
                   <div className="card__element-text">
                     <h2>TITOLO CARD</h2>
                     <p>
@@ -33,6 +33,11 @@ class Card extends Component {
                       natoque penatibus et magnis dis parturient montes,
                       nascetur ridiculus mus. Donec quam felis, ultricies nec.
                     </p>
+                    <Image
+                      className="card__element-img"
+                      src="https://www.iconmagazine.it/wp-content/uploads/2018/07/180710_Champagne-beer-950x514.jpg"
+                      rounded
+                    />
                   </div>
                 </Col>
               </Row>
@@ -41,34 +46,12 @@ class Card extends Component {
           <Col lg="12" className="">
             <div className="card__element">
               <Row>
-                <Col xs="3">
+                <Col xs="3" md="1">
                   <div className="float-right card__icon">
                     <MaterialIcon icon="emoji_food_beverage" size="large" />
                   </div>
                 </Col>
-                <Col xs="9">
-                  <div className="card__element-text">
-                    <h2>TITOLO CARDjjnjnjnjW</h2>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                      Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                      natoque penatibus et magnis dis parturient montes,
-                      nascetur ridiculus mus. Donec quam felis, ultricies nec.
-                    </p>
-                  </div>
-                </Col>
-              </Row>
-            </div>
-          </Col>
-          <Col lg="12" className="">
-            <div className="card__element">
-              <Row>
-                <Col xs="3">
-                  <div className="float-right card__icon">
-                    <MaterialIcon icon="fastfood" size="large" />
-                  </div>
-                </Col>
-                <Col xs="9">
+                <Col xs="9" md="11">
                   <div className="card__element-text">
                     <h2>TITOLO CARD</h2>
                     <p>
@@ -77,10 +60,43 @@ class Card extends Component {
                       natoque penatibus et magnis dis parturient montes,
                       nascetur ridiculus mus. Donec quam felis, ultricies nec.
                     </p>
+                    <Image
+                      className="card__element-img"
+                      src="https://www.orderisda.org/wp-content/uploads/2018/02/iStock-627328628.jpg"
+                      rounded
+                    />
                   </div>
                 </Col>
               </Row>
             </div>
+          </Col>
+          <Col lg="12" className="">
+            <div className="card__element">
+              <Row>
+                <Col xs="3" md="1">
+                  <div className="float-right card__icon">
+                    <MaterialIcon icon="fastfood" size="large" />
+                  </div>
+                </Col>
+                <Col xs="9" md="11">
+                  <div className="card__element-text">
+                    <h2>TITOLO CARD</h2>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                      Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                      natoque penatibus et magnis dis parturient montes,
+                      nascetur ridiculus mus. Donec quam felis, ultricies nec.
+                    </p>
+                    <Image
+                      className="card__element-img"
+                      src="https://www.siliconera.com/wp-content/uploads/2018/02/DVzEvGTV4AEvkN.jpg"
+                      rounded
+                    />
+                  </div>
+                </Col>
+              </Row>
+            </div>
+            <hr></hr>
           </Col>
         </Row>
       </Container>
