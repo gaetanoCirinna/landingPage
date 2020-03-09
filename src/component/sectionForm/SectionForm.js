@@ -42,17 +42,9 @@ class SectionForm extends Component {
                 closeModal={this.showModal}
               ></Success>
               <Form className="sectionForm__content">
-                <Form.Group controlId="formBasicPiva">
-                  <Form.Label>Partita IVA</Form.Label>
-                  <Form.Control type="piva" placeholder="Partita IVA" />
-                </Form.Group>
-                <Form.Group controlId="formBasicAgency">
-                  <Form.Label>Agenzia</Form.Label>
-                  <Form.Control type="agency" placeholder="Agenzia" />
-                </Form.Group>
-                <Form.Group controlId="formBasicAddress">
-                  <Form.Label>Indirizzo</Form.Label>
-                  <Form.Control type="address" placeholder="Indirizzo" />
+                <Form.Group controlId="formBasicName">
+                  <Form.Label>Nome</Form.Label>
+                  <Form.Control type="name" placeholder="Nome" />
                 </Form.Group>
 
                 <Form.Group controlId="formBasicEmail">
@@ -63,10 +55,6 @@ class SectionForm extends Component {
                   </Form.Text>
                 </Form.Group>
 
-                <Form.Group controlId="formBasicPassword">
-                  <Form.Label>Password</Form.Label>
-                  <Form.Control type="password" placeholder="Password" />
-                </Form.Group>
                 <Form.Group controlId="formBasicCheckbox">
                   <span>
                     Leggi l'informativa sulla <a href="#">privacy</a>

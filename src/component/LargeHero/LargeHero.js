@@ -25,9 +25,7 @@ class LargeHero extends Component {
                   Button!
                 </Button>
               </div>
-              <i className="material-icons large-hero__icon">
-                arrow_drop_down_circle
-              </i>
+
               <div className="large-hero__filter"></div>
               <div className="large-hero__img"></div>
             </div>
