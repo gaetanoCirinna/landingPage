@@ -21,7 +21,7 @@ class LargeHero extends Component {
                 </h1>
                 <p>Ciao Eleonora ciao ciao ciao ciao ciao sottotitolo.</p>
 
-                <Button variant="info" size="lg" block>
+                <Button variant="info" size="lg" block href="#sectionForm">
                   Button!
                 </Button>
               </div>

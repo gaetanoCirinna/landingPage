@@ -36,7 +36,7 @@ class SectionForm extends Component {
       <Container className="bg-green" fluid={true}>
         <Row>
           <Col lg="12">
-            <div className="sectionForm">
+            <div className="sectionForm" id="sectionForm">
               <Success
                 displayModal={this.state.var}
                 closeModal={this.showModal}
