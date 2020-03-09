@@ -19,12 +19,12 @@ class Card extends Component {
           <Col lg="12" className="">
             <div className="card__element">
               <Row>
-                <Col xs="3" md="1">
+                <Col xs="2" md="1">
                   <div className="float-right card__icon">
-                    <MaterialIcon icon="local_drink" size="large" />
+                    <MaterialIcon icon="local_drink" />
                   </div>
                 </Col>
-                <Col xs="9" md="11">
+                <Col xs="10" md="11">
                   <div className="card__element-text">
                     <h2>TITOLO CARD</h2>
                     <p>
@@ -46,12 +46,12 @@ class Card extends Component {
           <Col lg="12" className="">
             <div className="card__element">
               <Row>
-                <Col xs="3" md="1">
+                <Col xs="2" md="1">
                   <div className="float-right card__icon">
-                    <MaterialIcon icon="emoji_food_beverage" size="large" />
+                    <MaterialIcon icon="emoji_food_beverage" />
                   </div>
                 </Col>
-                <Col xs="9" md="11">
+                <Col xs="10" md="11">
                   <div className="card__element-text">
                     <h2>TITOLO CARD</h2>
                     <p>
@@ -73,12 +73,12 @@ class Card extends Component {
           <Col lg="12" className="">
             <div className="card__element">
               <Row>
-                <Col xs="3" md="1">
+                <Col xs="2" md="1">
                   <div className="float-right card__icon">
-                    <MaterialIcon icon="fastfood" size="large" />
+                    <MaterialIcon icon="fastfood" />
                   </div>
                 </Col>
-                <Col xs="9" md="11">
+                <Col xs="10" md="11">
                   <div className="card__element-text">
                     <h2>TITOLO CARD</h2>
                     <p>
